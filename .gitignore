@@ -173,3 +173,8 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 env/
+# Ignore the large dataset
+data/raw/creditcard.csv
+# Ignore all files and folders inside models/
+models/
+
